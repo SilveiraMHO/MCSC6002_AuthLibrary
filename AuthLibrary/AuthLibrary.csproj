@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<Title>Authentication Library</Title>
+	<PackageId>AuthLibrary</PackageId>
+	<Authors>MAG</Authors>
+	<Company>None</Company>
+	<Description>This package provides common permissions based on Authentication.</Description>
+	<RepositoryUrl>https://github.com/SilveiraMHO/MCSC6002_AuthLibrary</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="10.0.13" />
+  </ItemGroup>
+
+</Project>
